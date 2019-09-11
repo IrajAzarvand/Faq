@@ -11,6 +11,8 @@
 </head>
 <body>
     <nav>
+            <a href="/">صفحه اصلی </a>
+            &nbsp; &nbsp;
         <a href="/faq">سوالات متداول </a>
         &nbsp; &nbsp;
         <a href="/faq/create">ایجاد سوالات متداول </a>
