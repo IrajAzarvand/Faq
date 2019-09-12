@@ -1,26 +1,26 @@
 {
-    "name": "iraj/faq",
-    "description": "faq page for website",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Iraj Azarvand",
-            "email": "iraj.azarvand@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "iraj\\faq\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "iraj\\faq\\FaqserviceProvider"
-            ]
-        }
+  "name": "iraj/faq",
+  "description": "faq page for website",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Iraj Azarvand",
+      "email": "iraj.azarvand@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "iraj\\faq\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "iraj\\faq\\FaqserviceProvider"
+      ]
+    }
+  }
 }
