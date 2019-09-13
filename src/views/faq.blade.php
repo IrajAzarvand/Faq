@@ -5,8 +5,9 @@
 <article>
     @foreach($faqs as $faq)
 
-    <p>{{$faq->q}}</p>
+    <h2><p>{{$faq->q}}</p></h2>
     <p>{{$faq->a}}</p>
     @endforeach
+
 </article>
 @endsection

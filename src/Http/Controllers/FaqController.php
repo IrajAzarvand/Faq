@@ -48,7 +48,8 @@ class FaqController extends Controller
      */
     public function show($id)
     {
-        return faq::find($id);
+        $faq= faq::find($id);
+       return view('faq::faqShow',compact('faq'));
 
     }
 
@@ -86,9 +87,7 @@ class FaqController extends Controller
 
     public function list()
     {
-
         $questionList = DB::table('faqs')->get();
-
         return view('faq::faqAdmin', compact('questionList'));
     }
 }
