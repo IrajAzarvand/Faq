@@ -40,7 +40,7 @@
                 <td>ویرایش</td>
                 <td>حذف</td>
             </tr>
-
+<hr>
             @endforeach
         </tbody>
     </table>
